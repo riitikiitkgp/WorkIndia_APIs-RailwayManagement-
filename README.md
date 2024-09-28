@@ -22,7 +22,9 @@ A simple railway management system built using Flask and MySQL, allowing users t
 ## User Registration
 
 Endpoint: /register
+
 Method: POST
+
 Body:
 
 {
@@ -31,8 +33,11 @@ Body:
 }
 
 ## User Login
+
 Endpoint: /login
+
 Method: POST
+
 Body:
 
 {
@@ -41,6 +46,7 @@ Body:
 }
 
 ## Add a New Train (Admin only)
+
 Endpoint: /add_train
 
 Method: POST
