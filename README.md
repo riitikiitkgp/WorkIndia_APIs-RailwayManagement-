@@ -42,11 +42,14 @@ Body:
 
 ## Add a New Train (Admin only)
 Endpoint: /add_train
+
 Method: POST
+
 Headers:
 {
     "X-API-KEY": "69f4ed8fcaa222e73ee887b1dbf704a8"
 }
+
 Body:
 {
     "train_name": "Express Train",
@@ -56,26 +59,37 @@ Body:
 }
 
 ## Get Seat Availability
+
 Endpoint: /availability
+
 Method: GET
+
 Query Parameters:
 source: Station name
 destination: Station name
-Book a Seat
+
+## Book a Seat
+
 Endpoint: /book_seat
+
 Method: POST
+
 Headers:
 {
     "Authorization": "Bearer <token>"
 }
+
 Body:
 {
     "train_id": 1
 }
 
 ## Get Booking Details
+
 Endpoint: /booking_details
+
 Method: GET
+
 Headers:
 {
     "Authorization": "Bearer <token>"
